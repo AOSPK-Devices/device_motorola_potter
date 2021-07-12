@@ -21,7 +21,7 @@ $(call inherit-product, device/motorola/potter/full_potter.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # PixelGApps
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+#$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 
 #PE Props
 TARGET_GAPPS_ARCH := arm64
