@@ -20,6 +20,8 @@ $(call inherit-product, device/motorola/potter/full_potter.mk)
 # Inherit some common DU stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+CUSTOM_MAINTAINER := Diego Santos
+
 # PixelGApps
 #$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 
